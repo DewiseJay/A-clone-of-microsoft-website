@@ -1,2 +1,2 @@
 # A-clone-of-microsoft-website
-A project(an assignment) given to me by my Tutor @JudeUgwu
+A project(an assignment)... Thanks🙏🙏 to God for my Tutor @JudeUgwu
