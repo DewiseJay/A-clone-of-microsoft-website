@@ -1,0 +1,408 @@
+*{
+   box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;
+}
+/* body */
+body{
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+/* main container */
+main{
+    margin: 0px;
+    min-width: 100%;
+    min-height: 500px;
+    position: relative;
+}
+/* hearder */
+header{
+    min-width: 100%;
+    min-height: 50px;
+    padding: 5px;
+}
+header .logo{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height:2%;
+    margin: 0px;
+    padding: 10px;
+}
+header .logo a img{
+    width: 110px;
+    height: 25px;
+}
+ header .logo nav{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 25px;
+    margin-left: 25px;
+
+} 
+header .logo nav ul{
+    margin: 0px;
+    width: 100%; 
+    padding: 5px;
+    list-style-type: none;
+    height: 30px;
+}
+ 
+header .logo nav ul li{
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+}
+header .logo li:hover {
+    text-decoration: 3px underline solid #262626;
+}
+
+header .logo a{
+    text-decoration: none;
+    color: #666666;
+    font-weight: bold;
+    font-size: 15px;
+} 
+
+header .logo .nav{
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    height:25px;
+    margin-left: 360px;
+}
+ header .logo .nav ul{
+    width: 75%;
+    list-style-type: none;
+    padding: 1px;
+    height: 25px;
+    margin: 0px;
+    margin-left: 170px;
+}
+
+header .logo .nav ul li{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    padding: 2px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+header .logo .nav ul li a span{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    padding: 2px;
+    
+}
+header .logo .nav ul li a span:hover{
+    text-decoration: 3px underline solid #262626;
+}
+header .logo .nav ul li a span i{
+   color: #666666; 
+}
+/* end of logo header */
+
+/* articles */
+article{
+    min-width: 100%;
+    min-height: 520px;
+    padding: 2px;
+    background-color: #E9E9E9;
+}
+article a img{
+    width: 50%;
+    height: 500px;
+    float: right;
+    margin-top: 18px;
+}
+article .article{
+    width: 40%;
+    margin-top: 13%;
+    margin-left: 90px;
+}
+article .article a{
+    text-decoration: none;
+}
+article .article a h1{
+    color: #050505;
+    font-weight: bold;
+    font-size: 35px;
+}
+article .article a p{
+    color: #050505;
+    font-weight: lighter;
+    font-size: 15px;
+}
+article .article .btn{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #050505;
+    width: 30%;
+    height: 40px;
+    padding: 10px ;
+    text-align: center;
+} 
+article .article .btn a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+article .article .btn a:hover{
+    text-decoration: 3px underline  solid #fafafa;
+}
+article .article .btn1{
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    height: 40px;
+    margin-left: 10px;
+    padding: 10px ;
+    text-align: center;
+}
+article .article .btn1 a{
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+    font-size: 15px;
+}
+article .article .btn1 a:hover{
+    text-decoration: 3px underline  solid #030303;
+}
+   
+article .art a img{
+    width: 50%;
+    height: 500px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 100px;
+
+}
+/* end of articles */
+
+/* sections */
+section{
+    min-width: 100%;
+    min-height: 500px;
+    padding: 2px;
+    background-color: white
+}
+section h1{
+    color: #050505;
+    font-weight: bold;
+    font-size: 28px;
+    width: 12%;
+    height: 30px;
+}
+section .img{
+    display: inline-block;
+    vertical-align: top;
+    width: 360px;
+    height: 400px;
+    padding: 5px;
+    margin: 10px 5px 30px 0px;
+}
+section .img a{
+    text-decoration: none;
+}
+section .img a img{
+    width: 350px;
+    height: 200px;
+}
+section .img a h1{
+    color: #050505;
+    font-weight: bold;
+    font-size: 22px;
+    width: 100%;
+    height: 25px;
+}
+section .img a p{
+    color: #050505;
+    font-weight: lighter;
+    width: 100%;
+    height: 55px;
+    font-size: 15px;
+}
+section .img .btn{
+    display: inline-block;
+    vertical-align: top;
+    width: 37%;
+    height: 25px;
+    text-align: left;
+}
+section .img .btn a{
+    color: #075291;
+    font-weight: bold;
+    font-size: 18px;
+}
+section .img .btn a:hover{
+    text-decoration: 3px underline  solid #075291;
+}
+/* end of sections */
+
+/* covid-19 */
+.covid{
+    padding: 5px;
+    text-align: center;
+    min-width: 100%;
+    min-height: 135px;
+    background-color: #E6E6E6;
+}
+.covid h1{
+    color: #050505;
+    font-weight: bold;
+    font-size: 32px;
+    width: 100%;
+    height: 30px;
+}
+.covid a{
+    text-decoration: none;
+}
+.covid a p{
+    color: #050505;
+    font-weight: lighter;
+    width: 100%;
+    height: 10px;
+    font-size: 18px; 
+}
+.covid .btn{
+    display: inline-block;
+    vertical-align: top;
+    width: 10%;
+    height: 15px;
+    text-align: center; 
+}
+.covid .btn a{
+    color: black;
+    font-weight: bold;
+    font-size: 18px; 
+}
+.covid .btn a:hover{
+    text-decoration: 3px underline solid black;
+}
+
+/* end of covid-19 */
+
+/* social media */
+.icon{
+    min-width: 100%;
+    min-height: 90px;
+    margin-top: 30px;
+}
+.icon span{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: 70px;
+    margin: 0px;
+}
+.icon span h1{
+    display: inline-block;
+    vertical-align: top;
+    color: #666666;
+    font-weight: lighter;
+    font-size: 18px;
+    width: 30%;
+    height: 30px; 
+}
+.icon span a i{
+    font-size: 30px;
+    padding: 5px;
+}
+.icon span a i:hover{
+    color: rgb(37, 25, 109);
+}
+
+/* end of social media */
+
+/* footer */
+footer{
+    padding: 0px;
+    min-width: 100%; 
+    min-height: 305px;
+   background-color: #F2F2F2;
+}
+footer .txt{
+    display: inline-block;
+    vertical-align: top;
+    width: 220px;
+    height: 180px;
+    margin: 15px 10px 13px 0px;
+    padding: 10px;
+}
+footer .txt h1{
+    color: #666;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    height: 25px;
+    margin-left: 5px;
+}
+footer .txt a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: left;
+    color: #666;
+    font-size: 13px;
+}
+footer a:hover{
+text-decoration: 3px underline solid #666;
+}
+
+footer .txt1{
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height:50px;
+    margin-top: 30px;
+}
+footer .txt1 ul span{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+    margin: 5px 40% 5px 0px;
+}
+
+footer .txt1 ul{
+    margin: 10px;
+    text-align: center;
+    width: 98%;
+    list-style-type: none;
+    height: 30px;
+
+}
+footer .txt1 ul li{
+    margin: 5px 0px 5px 30px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    font-weight: bold;
+    height: 20px;
+}
+footer .txt1 a{
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+}
+footer .txt1 a:hover{
+    text-decoration: 3px underline solid #666;
+}
+footer .jonah{
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+}
+
+/* end of footer */
